@@ -1,0 +1,18 @@
+body {
+  font-family: monospace;
+}
+.link
+  {
+    font-size: 8;
+    font-style: italic;
+  }
+a:hover
+{
+  text-shadow: 2px 2px 5px yellow;
+  color: blue;
+
+}
+h1:hover {
+  text-shadow: 2px 2px 5px red;
+  color:green;
+}
