@@ -1,11 +1,27 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+
+  position: center;
 }
 
 form {
   display: inline-block;
   text-align: center;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
 }
 
 a
@@ -43,32 +59,18 @@ li {
 }
 
 .smallimg {
-  height: 30px;
-  width: 30px;
+  padding-bottom: 5px;
+  height: 25px;
+  width: 25px;
   opacity: .7;
 }
+
 #logo   {
   padding-top: 20%;
   position:relative;
   text-align: center;
 }
 
-.ssearch {
-    background-color: transparent;
-    border: none;
-    margin: 0;
-    margin-top: 0px;
-    padding: 0;
-    color: rgba(0,0,0,.87);
-    word-wrap: break-word;
-    outline: none;
-    display: flex;
-    flex: 100%;
-    tap-highlight-color: transparent;
-    margin-top: -37px;
-    height: 34px;
-    font-size: 16px;
-}
 .searchbuttons {
     font: 16px arial,sans-serif;
         font-size: 16px;
